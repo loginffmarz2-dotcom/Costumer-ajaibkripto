@@ -1,19 +1,29 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <!-- AMP Analytics --><script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
-<!-- Google Tag Manager -->
-<amp-analytics config="https://www.googletagmanager.com/amp.json?id=GTM-WR9SHHN4&gtm.url=SOURCE_URL" data-credentials="include"></amp-analytics>
-
+  
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <meta name="description" content="Pusat Bantuan Resmi Ajaib Sekuritas - Layanan pelanggan 24/7 untuk semua kebutuhan investasi Anda" />
   <meta name="keywords" content="Ajaib Sekuritas, customer service, bantuan investasi, layanan pelanggan, call center" />
   <title>Pusat Bantuan Ajaib Sekuritas</title>
   <link rel="stylesheet" href="styles.css">
+
+  <!-- ✅ Google Tag Manager (HEAD) -->
+  <script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id=GTM-WR9SHHN4'+dl;
+  f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-WR9SHHN4');
+  </script>
+  <!-- End Google Tag Manager -->
+
 </head>
+
 <style>
-  :root {
+:root {
   --header-height: 70px;
   --z-fixed: 100;
   --primary-color: #1a56db;
@@ -458,7 +468,15 @@ h2 {
   }
 }
 </style>
+
 <body>
+
+  <!-- ✅ Google Tag Manager (BODY) -->
+  <noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WR9SHHN4"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript>
+
   <!-- Navigation Bar -->
   <nav class="nav" id="main-navigation">
     <a href="#beranda" class="nav__logo">Ajaib Sekuritas</a>
@@ -473,7 +491,7 @@ h2 {
       <p>Selamat datang di Pusat Bantuan Ajaib Sekuritas. Tim <strong>Customer Service (CS)</strong> kami siap membantu Anda 24/7 terkait pertanyaan, pengaduan keluhan, atau masalah seputar investasi Anda di Ajaib.</p>
     </header>
 
-    <!-- Contact Section -->
+   <!-- Contact Section -->
     <section id="contact-section" class="contact-section">
       <h2><span class="section-title">Pusat Kontak Layanan</span></h2>
       <p class="section-description">Hubungi kami melalui berbagai channel yang tersedia 24/7</p>
@@ -577,68 +595,69 @@ h2 {
     </section>
   </div>
 
+  </div>
+
   <!-- Footer Section -->
-  <footer class="footer">
-    <div class="footer-container">
-      <div class="footer-column">
-        <h4>Tentang Ajaib Sekuritas</h4>
-        <p>
-          Ajaib Sekuritas adalah platform investasi online yang aman dan terpercaya, diawasi oleh OJK. Kami berkomitmen untuk menyediakan akses investasi yang mudah bagi semua orang.
-        </p>
-      </div>
-
-      <div class="footer-column">
-        <h4>Informasi Kontak CS</h4>
-        <ul>
-          <li>📞 Call Center: 0851-2222-2210</li>
-          <li>💬 WhatsApp: 0851-2222-2210</li>
-          <li>✉️ Email: support@ajaib.co.id (Contoh)</li>
-          <li>📍 Jakarta, Indonesia</li>
-        </ul>
-      </div>
-
-      <div class="footer-column">
-        <h4>Jam Layanan CS</h4>
-        <p>Senin - Minggu: 24 Jam Non-Stop<br>Termasuk Hari Libur Nasional</p>
-      </div>
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-column">
+      <h4>Tentang Ajaib Sekuritas</h4>
+      <p>
+        Ajaib Sekuritas adalah platform investasi online yang aman dan terpercaya, diawasi oleh OJK. Kami berkomitmen untuk menyediakan akses investasi yang mudah bagi semua orang.
+      </p>
     </div>
-
-    <hr class="footer-divider" />
-
-    <div class="footer-bottom">
-      <p>© 2025 PT Ajaib Teknologi Indonesia (Ajaib Sekuritas). Hak cipta dilindungi undang-undang.</p>
-      <p>Informasi di halaman ini adalah untuk tujuan bantuan pelanggan dan dapat berubah sewaktu-waktu.</p>
+    
+    <div class="footer-column">
+      <h4>Informasi Kontak CS</h4>
+      <ul>
+        <li>📞 Call Center: 0851-2222-2210</li>
+        <li>💬 WhatsApp: 0851-2222-2210</li>
+        <li>✉️ Email: support@ajaib.co.id (Contoh)</li>
+        <li>📍 Jakarta, Indonesia</li>
+      </ul>
     </div>
-  </footer>
-
-  <script>
-    // Smooth scroll for navigation
-    document.querySelector('.nav__button').addEventListener('click', function(e) {
-      e.preventDefault();
-      document.querySelector('#contact-section').scrollIntoView({
-        behavior: 'smooth'
-      });
+    
+    <div class="footer-column">
+      <h4>Jam Layanan CS</h4>
+      <p>Senin - Minggu: 24 Jam Non-Stop<br>Termasuk Hari Libur Nasional</p>
+    </div>
+  </div>
+  
+  <hr class="footer-divider" />
+  
+  <div class="footer-bottom">
+    <p>© 2025 PT Ajaib Teknologi Indonesia (Ajaib Sekuritas). Hak cipta dilindungi undang-undang.</p>
+    <p>Informasi di halaman ini adalah untuk tujuan bantuan pelanggan dan dapat berubah sewaktu-waktu.</p>
+  </div>
+</footer>
+<script>
+  // Smooth scroll for navigation
+  document.querySelector('.nav__button').addEventListener('click', function(e) {
+    e.preventDefault();
+    document.querySelector('#contact-section').scrollIntoView({
+      behavior: 'smooth'
     });
-
-    // FAQ Accordion
-    document.querySelectorAll('.faq-question').forEach(question => {
-      question.addEventListener('click', () => {
-        const answer = question.nextElementSibling;
-        const isActive = question.classList.contains('active');
-        
-        // Close all other answers
-        document.querySelectorAll('.faq-question').forEach(q => {
-          q.classList.remove('active');
-          q.nextElementSibling.classList.remove('active');
-        });
-
-        // Toggle current answer
-        if (!isActive) {
-          question.classList.add('active');
-          answer.classList.add('active');
-        }
+  });
+  
+  // FAQ Accordion
+  document.querySelectorAll('.faq-question').forEach(question => {
+    question.addEventListener('click', () => {
+      const answer = question.nextElementSibling;
+      const isActive = question.classList.contains('active');
+      
+      // Close all other answers
+      document.querySelectorAll('.faq-question').forEach(q => {
+        q.classList.remove('active');
+        q.nextElementSibling.classList.remove('active');
       });
+      
+      // Toggle current answer
+      if (!isActive) {
+        question.classList.add('active');
+        answer.classList.add('active');
+      }
     });
-  </script>
+  });
+</script>
 </body>
 </html>
